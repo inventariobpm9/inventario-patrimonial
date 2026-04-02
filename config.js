@@ -142,3 +142,6 @@ const bcSessao = {
     if (bcSessao.carregar()) bcSessao.renovarExpiracao();
   }, DEZ_MINUTOS);
 })();
+// Adicionar ao final do config.js
+const invApi    = bcApi;
+const invSessao = bcSessao;
